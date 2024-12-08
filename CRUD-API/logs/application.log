@@ -1,0 +1,1113 @@
+2024-12-07 21:45:17 - Starting CrudApiApplication using Java 21.0.4 with PID 13240 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 21:45:17 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 21:45:17 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 21:45:17 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 21:45:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 21:45:19 - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-12-07 21:45:20 - Tomcat initialized with port 8080 (http)
+2024-12-07 21:45:20 - Starting service [Tomcat]
+2024-12-07 21:45:20 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 21:45:20 - Initializing Spring embedded WebApplicationContext
+2024-12-07 21:45:20 - Root WebApplicationContext: initialization completed in 2312 ms
+2024-12-07 21:45:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 21:45:20 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 21:45:20 - HHH000026: Second-level cache disabled
+2024-12-07 21:45:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 21:45:21 - HikariPool-1 - Starting...
+2024-12-07 21:45:21 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f83e7ec
+2024-12-07 21:45:21 - HikariPool-1 - Start completed.
+2024-12-07 21:45:21 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 21:45:21 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 21:45:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 21:45:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 21:45:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 21:45:23 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 21:45:23 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 21:45:23 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 21:45:23 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 21:45:23 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 21:45:23 - LiveReload server is running on port 35729
+2024-12-07 21:45:24 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 21:45:24 - Started CrudApiApplication in 7.057 seconds (process running for 7.802)
+2024-12-07 21:45:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 21:45:36 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 21:45:36 - Detected StandardServletMultipartResolver
+2024-12-07 21:45:36 - Detected AcceptHeaderLocaleResolver
+2024-12-07 21:45:36 - Detected FixedThemeResolver
+2024-12-07 21:45:36 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2ee1f268
+2024-12-07 21:45:36 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@64c0030a
+2024-12-07 21:45:36 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 21:45:36 - Completed initialization in 2 ms
+2024-12-07 21:45:36 - GET "/", parameters={}
+2024-12-07 21:45:36 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 21:45:36 - View name [forward:], model {}
+2024-12-07 21:45:36 - Forwarding to [index.html]
+2024-12-07 21:45:36 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 21:45:36 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:45:37 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 21:45:37 - Completed 200 OK
+2024-12-07 21:45:37 - GET "/style.css", parameters={}
+2024-12-07 21:45:37 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:45:37 - GET "/app.js", parameters={}
+2024-12-07 21:45:37 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:45:37 - Completed 200 OK
+2024-12-07 21:45:37 - Completed 200 OK
+2024-12-07 21:45:37 - GET "/api/products", parameters={}
+2024-12-07 21:45:37 - GET "/favicon.ico", parameters={}
+2024-12-07 21:45:37 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:45:37 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:45:37 - Resource not found
+2024-12-07 21:45:37 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-12-07 21:45:37 - Completed 404 NOT_FOUND
+2024-12-07 21:45:37 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 21:45:37 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 21:45:37 - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-12-07 21:45:37 - Writing [{timestamp=Sat Dec 07 21:45:37 IST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-12-07 21:45:37 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 21:45:37 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:45:37 - Writing [[]]
+2024-12-07 21:45:37 - Completed 200 OK
+2024-12-07 21:46:01 - POST "/api/products", parameters={}
+2024-12-07 21:46:01 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:46:01 - Read "application/json;charset=UTF-8" to [Product{id=null, name='soap', description='this is soap', price=100.0}]
+2024-12-07 21:46:01 - Failed to complete request: org.springframework.orm.jpa.JpaSystemException: Identifier of entity 'com.crudapi.model.Product' must be manually assigned before calling 'persist()'
+2024-12-07 21:46:01 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: Identifier of entity 'com.crudapi.model.Product' must be manually assigned before calling 'persist()'] with root cause
+org.hibernate.id.IdentifierGenerationException: Identifier of entity 'com.crudapi.model.Product' must be manually assigned before calling 'persist()'
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:208)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy111.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:623)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy115.save(Unknown Source)
+	at com.crudapi.service.ProductService.saveProduct(ProductService.java:26)
+	at com.crudapi.controller.ProductController.createProduct(ProductController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-07 21:46:01 - "ERROR" dispatch for POST "/error", parameters={}
+2024-12-07 21:46:01 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 21:46:01 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:46:01 - Writing [{timestamp=Sat Dec 07 21:46:01 IST 2024, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2024-12-07 21:46:01 - Exiting from "ERROR" dispatch, status 500
+2024-12-07 21:48:36 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 21:48:36 - Graceful shutdown complete
+2024-12-07 21:48:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 21:48:36 - HikariPool-1 - Shutdown initiated...
+2024-12-07 21:48:36 - HikariPool-1 - Shutdown completed.
+2024-12-07 21:50:04 - Starting CrudApiApplication using Java 21.0.4 with PID 7504 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 21:50:04 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 21:50:04 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 21:50:04 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 21:50:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 21:50:05 - Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+2024-12-07 21:50:06 - Tomcat initialized with port 8080 (http)
+2024-12-07 21:50:06 - Starting service [Tomcat]
+2024-12-07 21:50:06 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 21:50:06 - Initializing Spring embedded WebApplicationContext
+2024-12-07 21:50:06 - Root WebApplicationContext: initialization completed in 2077 ms
+2024-12-07 21:50:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 21:50:07 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 21:50:07 - HHH000026: Second-level cache disabled
+2024-12-07 21:50:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 21:50:07 - HikariPool-1 - Starting...
+2024-12-07 21:50:08 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63597b98
+2024-12-07 21:50:08 - HikariPool-1 - Start completed.
+2024-12-07 21:50:08 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 21:50:08 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 21:50:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 21:50:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 21:50:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 21:50:09 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 21:50:09 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 21:50:09 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 21:50:09 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 21:50:09 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 21:50:09 - LiveReload server is running on port 35729
+2024-12-07 21:50:09 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 21:50:09 - Started CrudApiApplication in 6.065 seconds (process running for 6.7)
+2024-12-07 21:50:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 21:50:14 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 21:50:14 - Detected StandardServletMultipartResolver
+2024-12-07 21:50:14 - Detected AcceptHeaderLocaleResolver
+2024-12-07 21:50:14 - Detected FixedThemeResolver
+2024-12-07 21:50:14 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@e1a0717
+2024-12-07 21:50:14 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@79e8f6f9
+2024-12-07 21:50:14 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 21:50:14 - Completed initialization in 4 ms
+2024-12-07 21:50:14 - GET "/", parameters={}
+2024-12-07 21:50:14 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 21:50:14 - View name [forward:], model {}
+2024-12-07 21:50:14 - Forwarding to [index.html]
+2024-12-07 21:50:14 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 21:50:14 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:50:14 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 21:50:14 - Completed 200 OK
+2024-12-07 21:50:14 - GET "/style.css", parameters={}
+2024-12-07 21:50:14 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:50:14 - GET "/app.js", parameters={}
+2024-12-07 21:50:14 - Completed 200 OK
+2024-12-07 21:50:14 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:50:14 - Completed 200 OK
+2024-12-07 21:50:14 - GET "/api/products", parameters={}
+2024-12-07 21:50:14 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:50:15 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:50:15 - Writing [[]]
+2024-12-07 21:50:15 - Completed 200 OK
+2024-12-07 21:50:44 - POST "/api/products", parameters={}
+2024-12-07 21:50:44 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:50:44 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Bike', description='This is a MT-15 ', price=200000.0}]
+2024-12-07 21:50:44 - SQL Error: 1364, SQLState: HY000
+2024-12-07 21:50:44 - Field 'id' doesn't have a default value
+2024-12-07 21:50:44 - Failed to complete request: org.springframework.orm.jpa.JpaSystemException: could not execute statement [Field 'id' doesn't have a default value] [insert into Product (description,name,price) values (?,?,?)]
+2024-12-07 21:50:44 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: could not execute statement [Field 'id' doesn't have a default value] [insert into Product (description,name,price) values (?,?,?)]] with root cause
+java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1467)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:393)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:307)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:223)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy112.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:623)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy116.save(Unknown Source)
+	at com.crudapi.service.ProductService.saveProduct(ProductService.java:26)
+	at com.crudapi.controller.ProductController.createProduct(ProductController.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-12-07 21:50:44 - "ERROR" dispatch for POST "/error", parameters={}
+2024-12-07 21:50:44 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-12-07 21:50:44 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:50:44 - Writing [{timestamp=Sat Dec 07 21:50:44 IST 2024, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2024-12-07 21:50:44 - Exiting from "ERROR" dispatch, status 500
+2024-12-07 21:53:35 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 21:53:35 - Graceful shutdown complete
+2024-12-07 21:53:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 21:53:35 - HikariPool-1 - Shutdown initiated...
+2024-12-07 21:53:35 - HikariPool-1 - Shutdown completed.
+2024-12-07 21:54:24 - Starting CrudApiApplication using Java 21.0.4 with PID 2060 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 21:54:24 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 21:54:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 21:54:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 21:54:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 21:54:26 - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-12-07 21:54:26 - Tomcat initialized with port 8080 (http)
+2024-12-07 21:54:26 - Starting service [Tomcat]
+2024-12-07 21:54:26 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 21:54:26 - Initializing Spring embedded WebApplicationContext
+2024-12-07 21:54:26 - Root WebApplicationContext: initialization completed in 1890 ms
+2024-12-07 21:54:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 21:54:27 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 21:54:27 - HHH000026: Second-level cache disabled
+2024-12-07 21:54:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 21:54:27 - HikariPool-1 - Starting...
+2024-12-07 21:54:28 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@372ae97
+2024-12-07 21:54:28 - HikariPool-1 - Start completed.
+2024-12-07 21:54:28 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 21:54:28 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 21:54:29 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 21:54:29 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 21:54:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 21:54:29 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 21:54:29 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 21:54:29 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 21:54:29 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 21:54:30 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 21:54:30 - LiveReload server is running on port 35729
+2024-12-07 21:54:30 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 21:54:30 - Started CrudApiApplication in 5.95 seconds (process running for 6.593)
+2024-12-07 21:56:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 21:56:18 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 21:56:18 - Detected StandardServletMultipartResolver
+2024-12-07 21:56:18 - Detected AcceptHeaderLocaleResolver
+2024-12-07 21:56:18 - Detected FixedThemeResolver
+2024-12-07 21:56:18 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@11d01879
+2024-12-07 21:56:18 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1d1c364b
+2024-12-07 21:56:18 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 21:56:18 - Completed initialization in 2 ms
+2024-12-07 21:56:18 - POST "/api/products", parameters={}
+2024-12-07 21:56:18 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:56:18 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Bike', description='This is my bike', price=20000.0}]
+2024-12-07 21:56:18 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:56:18 - Writing [Product{id=1, name='Bike', description='This is my bike', price=20000.0}]
+2024-12-07 21:56:18 - Completed 200 OK
+2024-12-07 21:56:34 - GET "/", parameters={}
+2024-12-07 21:56:34 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 21:56:34 - View name [forward:], model {}
+2024-12-07 21:56:34 - Forwarding to [index.html]
+2024-12-07 21:56:34 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 21:56:34 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:56:34 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 21:56:34 - Completed 200 OK
+2024-12-07 21:56:34 - GET "/style.css", parameters={}
+2024-12-07 21:56:34 - GET "/app.js", parameters={}
+2024-12-07 21:56:34 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:56:34 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 21:56:34 - Completed 200 OK
+2024-12-07 21:56:34 - Completed 200 OK
+2024-12-07 21:56:34 - GET "/api/products", parameters={}
+2024-12-07 21:56:34 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:56:34 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:56:34 - Writing [[Product{id=1, name='Bike', description='This is my bike', price=20000.0}]]
+2024-12-07 21:56:34 - Completed 200 OK
+2024-12-07 21:56:52 - POST "/api/products", parameters={}
+2024-12-07 21:56:52 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:56:52 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Car ', description='This is my Car', price=500000.0}]
+2024-12-07 21:56:52 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:56:52 - Writing [Product{id=2, name='Car ', description='This is my Car', price=500000.0}]
+2024-12-07 21:56:52 - Completed 200 OK
+2024-12-07 21:56:52 - GET "/api/products", parameters={}
+2024-12-07 21:56:52 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:56:52 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:56:52 - Writing [[Product{id=1, name='Bike', description='This is my bike', price=20000.0}, Product{id=2, name='Car ' (truncated)...]
+2024-12-07 21:56:52 - Completed 200 OK
+2024-12-07 21:57:13 - DELETE "/api/products/2", parameters={}
+2024-12-07 21:57:13 - Mapped to com.crudapi.controller.ProductController#deleteProduct(Long)
+2024-12-07 21:57:13 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:13 - Nothing to write: null body
+2024-12-07 21:57:13 - Completed 200 OK
+2024-12-07 21:57:13 - GET "/api/products", parameters={}
+2024-12-07 21:57:13 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:13 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:13 - Writing [[Product{id=1, name='Bike', description='This is my bike', price=20000.0}]]
+2024-12-07 21:57:13 - Completed 200 OK
+2024-12-07 21:57:16 - DELETE "/api/products/1", parameters={}
+2024-12-07 21:57:16 - Mapped to com.crudapi.controller.ProductController#deleteProduct(Long)
+2024-12-07 21:57:16 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:16 - Nothing to write: null body
+2024-12-07 21:57:16 - Completed 200 OK
+2024-12-07 21:57:16 - GET "/api/products", parameters={}
+2024-12-07 21:57:16 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:16 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:16 - Writing [[]]
+2024-12-07 21:57:16 - Completed 200 OK
+2024-12-07 21:57:23 - POST "/api/products", parameters={}
+2024-12-07 21:57:23 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:57:23 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Car ', description='This is my Car', price=500000.0}]
+2024-12-07 21:57:23 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:23 - Writing [Product{id=3, name='Car ', description='This is my Car', price=500000.0}]
+2024-12-07 21:57:23 - Completed 200 OK
+2024-12-07 21:57:23 - GET "/api/products", parameters={}
+2024-12-07 21:57:23 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:23 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:23 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}]]
+2024-12-07 21:57:23 - Completed 200 OK
+2024-12-07 21:57:28 - POST "/api/products", parameters={}
+2024-12-07 21:57:28 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:57:28 - Read "application/json;charset=UTF-8" to [Product{id=null, name='B', description='This is my Car', price=500000.0}]
+2024-12-07 21:57:28 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:28 - Writing [Product{id=4, name='B', description='This is my Car', price=500000.0}]
+2024-12-07 21:57:28 - Completed 200 OK
+2024-12-07 21:57:28 - GET "/api/products", parameters={}
+2024-12-07 21:57:28 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:28 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:28 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=4, name='B', d (truncated)...]
+2024-12-07 21:57:28 - Completed 200 OK
+2024-12-07 21:57:32 - DELETE "/api/products/4", parameters={}
+2024-12-07 21:57:32 - Mapped to com.crudapi.controller.ProductController#deleteProduct(Long)
+2024-12-07 21:57:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:33 - Nothing to write: null body
+2024-12-07 21:57:33 - Completed 200 OK
+2024-12-07 21:57:33 - GET "/api/products", parameters={}
+2024-12-07 21:57:33 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:33 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}]]
+2024-12-07 21:57:33 - Completed 200 OK
+2024-12-07 21:57:44 - POST "/api/products", parameters={}
+2024-12-07 21:57:44 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 21:57:44 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Bike', description='This is my Bike', price=20000.0}]
+2024-12-07 21:57:44 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:44 - Writing [Product{id=5, name='Bike', description='This is my Bike', price=20000.0}]
+2024-12-07 21:57:44 - Completed 200 OK
+2024-12-07 21:57:44 - GET "/api/products", parameters={}
+2024-12-07 21:57:44 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 21:57:44 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 21:57:44 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 21:57:44 - Completed 200 OK
+2024-12-07 22:04:47 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:04:47 - Graceful shutdown complete
+2024-12-07 22:04:47 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:04:47 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:04:47 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:11:46 - Starting CrudApiApplication using Java 21.0.4 with PID 12632 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:11:46 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:11:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:11:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:11:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:11:47 - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-12-07 22:11:48 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:11:48 - Starting service [Tomcat]
+2024-12-07 22:11:48 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:11:48 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:11:48 - Root WebApplicationContext: initialization completed in 1915 ms
+2024-12-07 22:11:48 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:11:48 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:11:48 - HHH000026: Second-level cache disabled
+2024-12-07 22:11:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:11:49 - HikariPool-1 - Starting...
+2024-12-07 22:11:49 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44436e36
+2024-12-07 22:11:49 - HikariPool-1 - Start completed.
+2024-12-07 22:11:49 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:11:49 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:11:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:11:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:11:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:11:51 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 22:11:51 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:11:51 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:11:51 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:11:51 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:11:51 - LiveReload server is running on port 35729
+2024-12-07 22:11:51 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:11:51 - Started CrudApiApplication in 6.127 seconds (process running for 6.796)
+2024-12-07 22:11:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:11:58 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:11:58 - Detected StandardServletMultipartResolver
+2024-12-07 22:11:58 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:11:58 - Detected FixedThemeResolver
+2024-12-07 22:11:58 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@713dc0ad
+2024-12-07 22:11:58 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@e1a0717
+2024-12-07 22:11:58 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:11:58 - Completed initialization in 2 ms
+2024-12-07 22:11:58 - GET "/", parameters={}
+2024-12-07 22:11:58 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:11:58 - View name [forward:], model {}
+2024-12-07 22:11:58 - Forwarding to [index.html]
+2024-12-07 22:11:58 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:11:58 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:11:58 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:11:58 - Completed 200 OK
+2024-12-07 22:11:58 - GET "/style3.css", parameters={}
+2024-12-07 22:11:58 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:11:58 - GET "/app.js", parameters={}
+2024-12-07 22:11:58 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:11:58 - Completed 200 OK
+2024-12-07 22:11:58 - Completed 200 OK
+2024-12-07 22:11:58 - GET "/api/products", parameters={}
+2024-12-07 22:11:58 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:11:58 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:11:58 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:11:58 - Completed 200 OK
+2024-12-07 22:12:34 - POST "/api/products", parameters={}
+2024-12-07 22:12:34 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 22:12:34 - Read "application/json;charset=UTF-8" to [Product{id=null, name='Computer', description='This is a Lenovo i5 7th Gen computer', price=90000.0}]
+2024-12-07 22:12:34 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:12:34 - Writing [Product{id=6, name='Computer', description='This is a Lenovo i5 7th Gen computer', price=90000.0}]
+2024-12-07 22:12:34 - Completed 200 OK
+2024-12-07 22:12:34 - GET "/api/products", parameters={}
+2024-12-07 22:12:34 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:12:34 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:12:34 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:12:34 - Completed 200 OK
+2024-12-07 22:17:34 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:17:34 - Graceful shutdown complete
+2024-12-07 22:17:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:17:34 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:17:34 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:34:39 - Starting CrudApiApplication using Java 21.0.4 with PID 11120 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:34:39 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:34:39 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:34:39 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:34:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:34:41 - Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2024-12-07 22:34:41 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:34:42 - Starting service [Tomcat]
+2024-12-07 22:34:42 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:34:42 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:34:42 - Root WebApplicationContext: initialization completed in 2134 ms
+2024-12-07 22:34:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:34:42 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:34:42 - HHH000026: Second-level cache disabled
+2024-12-07 22:34:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:34:42 - HikariPool-1 - Starting...
+2024-12-07 22:34:43 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d99c637
+2024-12-07 22:34:43 - HikariPool-1 - Start completed.
+2024-12-07 22:34:43 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:34:43 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:34:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:34:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:34:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:34:44 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 22:34:44 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:34:45 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:34:45 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:34:45 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:34:45 - LiveReload server is running on port 35729
+2024-12-07 22:34:45 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:34:45 - Started CrudApiApplication in 6.203 seconds (process running for 6.882)
+2024-12-07 22:34:52 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:34:52 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:34:52 - Detected StandardServletMultipartResolver
+2024-12-07 22:34:52 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:34:52 - Detected FixedThemeResolver
+2024-12-07 22:34:52 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@494f2668
+2024-12-07 22:34:52 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@63c07409
+2024-12-07 22:34:52 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:34:52 - Completed initialization in 3 ms
+2024-12-07 22:34:52 - GET "/", parameters={}
+2024-12-07 22:34:52 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:34:52 - View name [forward:], model {}
+2024-12-07 22:34:52 - Forwarding to [index.html]
+2024-12-07 22:34:52 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:34:52 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:34:52 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:34:52 - Completed 200 OK
+2024-12-07 22:34:52 - GET "/app.js", parameters={}
+2024-12-07 22:34:52 - GET "/style3.css", parameters={}
+2024-12-07 22:34:52 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:34:52 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:34:52 - Completed 200 OK
+2024-12-07 22:34:52 - Completed 200 OK
+2024-12-07 22:34:52 - GET "/api/products", parameters={}
+2024-12-07 22:34:52 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:34:53 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:34:53 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:34:53 - Completed 200 OK
+2024-12-07 22:35:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:35:13 - Graceful shutdown complete
+2024-12-07 22:35:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:35:13 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:35:13 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:36:56 - Starting CrudApiApplication using Java 21.0.4 with PID 1156 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:36:56 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:36:56 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:36:56 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:36:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:36:57 - Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+2024-12-07 22:36:58 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:36:58 - Starting service [Tomcat]
+2024-12-07 22:36:58 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:36:58 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:36:58 - Root WebApplicationContext: initialization completed in 1963 ms
+2024-12-07 22:36:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:36:58 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:36:58 - HHH000026: Second-level cache disabled
+2024-12-07 22:36:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:36:58 - HikariPool-1 - Starting...
+2024-12-07 22:36:59 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31398820
+2024-12-07 22:36:59 - HikariPool-1 - Start completed.
+2024-12-07 22:36:59 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:36:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:37:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:37:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:37:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:37:00 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:37:01 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:37:01 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:37:01 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:37:01 - LiveReload server is running on port 35729
+2024-12-07 22:37:01 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:37:01 - Started CrudApiApplication in 6.016 seconds (process running for 6.651)
+2024-12-07 22:37:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:37:08 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:37:08 - Detected StandardServletMultipartResolver
+2024-12-07 22:37:08 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:37:08 - Detected FixedThemeResolver
+2024-12-07 22:37:08 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@114cc6eb
+2024-12-07 22:37:08 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6548ac73
+2024-12-07 22:37:08 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:37:08 - Completed initialization in 2 ms
+2024-12-07 22:37:08 - GET "/", parameters={}
+2024-12-07 22:37:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:37:08 - Resource not found
+2024-12-07 22:37:08 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2024-12-07 22:37:08 - Completed 404 NOT_FOUND
+2024-12-07 22:37:08 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 22:37:08 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-07 22:37:08 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-07 22:37:08 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 22:38:57 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:38:57 - Graceful shutdown complete
+2024-12-07 22:38:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:38:57 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:38:57 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:39:57 - Starting CrudApiApplication using Java 21.0.4 with PID 9904 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:39:57 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:39:57 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:39:57 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:39:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:39:58 - Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2024-12-07 22:39:59 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:40:00 - Starting service [Tomcat]
+2024-12-07 22:40:00 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:40:00 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:40:00 - Root WebApplicationContext: initialization completed in 2365 ms
+2024-12-07 22:40:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:40:00 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:40:00 - HHH000026: Second-level cache disabled
+2024-12-07 22:40:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:40:01 - HikariPool-1 - Starting...
+2024-12-07 22:40:01 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fec0f83
+2024-12-07 22:40:01 - HikariPool-1 - Start completed.
+2024-12-07 22:40:01 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:40:01 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:40:02 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:40:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:40:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:40:02 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:40:03 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:40:03 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:40:03 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:40:03 - LiveReload server is running on port 35729
+2024-12-07 22:40:03 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:40:03 - Started CrudApiApplication in 6.483 seconds (process running for 7.21)
+2024-12-07 22:40:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:40:08 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:40:08 - Detected StandardServletMultipartResolver
+2024-12-07 22:40:08 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:40:08 - Detected FixedThemeResolver
+2024-12-07 22:40:08 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@63c07409
+2024-12-07 22:40:08 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@17b29fe3
+2024-12-07 22:40:08 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:40:08 - Completed initialization in 2 ms
+2024-12-07 22:40:08 - GET "/", parameters={}
+2024-12-07 22:40:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:40:08 - Resource not found
+2024-12-07 22:40:08 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2024-12-07 22:40:08 - Completed 404 NOT_FOUND
+2024-12-07 22:40:08 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 22:40:08 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-07 22:40:08 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-07 22:40:08 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 22:40:10 - GET "/", parameters={}
+2024-12-07 22:40:10 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:40:10 - Resource not found
+2024-12-07 22:40:10 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2024-12-07 22:40:10 - Completed 404 NOT_FOUND
+2024-12-07 22:40:10 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 22:40:10 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-07 22:40:10 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-07 22:40:10 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 22:40:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:40:51 - Graceful shutdown complete
+2024-12-07 22:40:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:40:51 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:40:51 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:40:53 - Starting CrudApiApplication using Java 21.0.4 with PID 13264 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:40:53 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:40:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:40:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:40:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:40:54 - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-12-07 22:40:55 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:40:55 - Starting service [Tomcat]
+2024-12-07 22:40:55 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:40:55 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:40:55 - Root WebApplicationContext: initialization completed in 1973 ms
+2024-12-07 22:40:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:40:56 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:40:56 - HHH000026: Second-level cache disabled
+2024-12-07 22:40:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:40:56 - HikariPool-1 - Starting...
+2024-12-07 22:40:57 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6131b644
+2024-12-07 22:40:57 - HikariPool-1 - Start completed.
+2024-12-07 22:40:57 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:40:57 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:40:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:40:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:40:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:40:58 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 22:40:58 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:40:58 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:40:58 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:40:58 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:40:58 - LiveReload server is running on port 35729
+2024-12-07 22:40:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:40:58 - Started CrudApiApplication in 5.701 seconds (process running for 6.339)
+2024-12-07 22:41:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:41:12 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:41:12 - Detected StandardServletMultipartResolver
+2024-12-07 22:41:12 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:41:12 - Detected FixedThemeResolver
+2024-12-07 22:41:12 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@68de18f6
+2024-12-07 22:41:12 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@538d247a
+2024-12-07 22:41:12 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:41:12 - Completed initialization in 2 ms
+2024-12-07 22:41:12 - GET "/", parameters={}
+2024-12-07 22:41:12 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:41:12 - View name [forward:], model {}
+2024-12-07 22:41:12 - Forwarding to [index.html]
+2024-12-07 22:41:12 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:41:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:12 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:41:12 - Completed 200 OK
+2024-12-07 22:41:12 - GET "/js/admin.js", parameters={}
+2024-12-07 22:41:12 - GET "/css/admin.css", parameters={}
+2024-12-07 22:41:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:12 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:12 - Completed 200 OK
+2024-12-07 22:41:12 - Completed 200 OK
+2024-12-07 22:41:12 - GET "/api/products", parameters={}
+2024-12-07 22:41:12 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:41:12 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:41:12 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:41:13 - Completed 200 OK
+2024-12-07 22:41:27 - GET "/templates/one11.html", parameters={}
+2024-12-07 22:41:27 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:27 - Resource not found
+2024-12-07 22:41:27 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource templates/one11.html.]
+2024-12-07 22:41:27 - Completed 404 NOT_FOUND
+2024-12-07 22:41:27 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 22:41:27 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-07 22:41:27 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-07 22:41:27 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 22:41:33 - GET "/", parameters={}
+2024-12-07 22:41:33 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:41:33 - View name [forward:], model {}
+2024-12-07 22:41:33 - Forwarding to [index.html]
+2024-12-07 22:41:33 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:41:33 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:33 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:41:33 - Completed 200 OK
+2024-12-07 22:41:33 - GET "/css/admin.css", parameters={}
+2024-12-07 22:41:33 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:33 - GET "/js/admin.js", parameters={}
+2024-12-07 22:41:33 - Completed 200 OK
+2024-12-07 22:41:33 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:41:33 - Completed 200 OK
+2024-12-07 22:42:20 - GET "/templates/one11.html", parameters={}
+2024-12-07 22:42:20 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:42:20 - Resource not found
+2024-12-07 22:42:20 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource templates/one11.html.]
+2024-12-07 22:42:20 - Completed 404 NOT_FOUND
+2024-12-07 22:42:20 - "ERROR" dispatch for GET "/error", parameters={}
+2024-12-07 22:42:20 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-12-07 22:42:20 - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-12-07 22:42:20 - Exiting from "ERROR" dispatch, status 404
+2024-12-07 22:42:22 - GET "/", parameters={}
+2024-12-07 22:42:22 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:42:22 - View name [forward:], model {}
+2024-12-07 22:42:22 - Forwarding to [index.html]
+2024-12-07 22:42:22 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:42:22 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:42:22 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:42:22 - Completed 200 OK
+2024-12-07 22:42:22 - GET "/css/admin.css", parameters={}
+2024-12-07 22:42:22 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:42:22 - Completed 200 OK
+2024-12-07 22:42:22 - GET "/js/admin.js", parameters={}
+2024-12-07 22:42:22 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:42:22 - Completed 200 OK
+2024-12-07 22:42:43 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:42:43 - Graceful shutdown complete
+2024-12-07 22:42:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:42:43 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:42:43 - HikariPool-1 - Shutdown completed.
+2024-12-07 22:42:56 - Starting CrudApiApplication using Java 21.0.4 with PID 4236 (D:\Spring Projects\CRUD-API\target\classes started by LENOVO in D:\Spring Projects\CRUD-API)
+2024-12-07 22:42:56 - No active profile set, falling back to 1 default profile: "default"
+2024-12-07 22:42:56 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 22:42:56 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 22:42:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-07 22:42:57 - Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-12-07 22:42:58 - Tomcat initialized with port 8080 (http)
+2024-12-07 22:42:58 - Starting service [Tomcat]
+2024-12-07 22:42:58 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-07 22:42:58 - Initializing Spring embedded WebApplicationContext
+2024-12-07 22:42:58 - Root WebApplicationContext: initialization completed in 2003 ms
+2024-12-07 22:42:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-07 22:42:59 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-07 22:42:59 - HHH000026: Second-level cache disabled
+2024-12-07 22:42:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-07 22:42:59 - HikariPool-1 - Starting...
+2024-12-07 22:43:00 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77f07a3e
+2024-12-07 22:43:00 - HikariPool-1 - Start completed.
+2024-12-07 22:43:00 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-07 22:43:00 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-07 22:43:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-07 22:43:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:43:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-07 22:43:01 - Adding welcome page: class path resource [static/index.html]
+2024-12-07 22:43:02 - 7 mappings in 'requestMappingHandlerMapping'
+2024-12-07 22:43:02 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-07 22:43:02 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-07 22:43:02 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-07 22:43:02 - LiveReload server is running on port 35729
+2024-12-07 22:43:02 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-07 22:43:02 - Started CrudApiApplication in 6.506 seconds (process running for 7.186)
+2024-12-07 22:43:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 22:43:19 - Initializing Servlet 'dispatcherServlet'
+2024-12-07 22:43:19 - Detected StandardServletMultipartResolver
+2024-12-07 22:43:19 - Detected AcceptHeaderLocaleResolver
+2024-12-07 22:43:19 - Detected FixedThemeResolver
+2024-12-07 22:43:19 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@114cc6eb
+2024-12-07 22:43:19 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6548ac73
+2024-12-07 22:43:19 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-07 22:43:19 - Completed initialization in 2 ms
+2024-12-07 22:43:19 - GET "/", parameters={}
+2024-12-07 22:43:19 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:43:19 - View name [forward:], model {}
+2024-12-07 22:43:19 - Forwarding to [index.html]
+2024-12-07 22:43:19 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:43:19 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:19 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:43:19 - Completed 200 OK
+2024-12-07 22:43:19 - GET "/js/admin.js", parameters={}
+2024-12-07 22:43:19 - GET "/css/admin.css", parameters={}
+2024-12-07 22:43:19 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:19 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:19 - Completed 200 OK
+2024-12-07 22:43:19 - Completed 200 OK
+2024-12-07 22:43:19 - GET "/api/products", parameters={}
+2024-12-07 22:43:19 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:43:19 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:43:19 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:43:19 - Completed 200 OK
+2024-12-07 22:43:21 - GET "/one11.html", parameters={}
+2024-12-07 22:43:21 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:21 - Completed 200 OK
+2024-12-07 22:43:21 - GET "/css/style3.css", parameters={}
+2024-12-07 22:43:21 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:21 - GET "/js/app.js", parameters={}
+2024-12-07 22:43:21 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:21 - Completed 200 OK
+2024-12-07 22:43:21 - Completed 200 OK
+2024-12-07 22:43:21 - GET "/api/products", parameters={}
+2024-12-07 22:43:21 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:43:21 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:43:21 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:43:21 - Completed 200 OK
+2024-12-07 22:43:27 - GET "/", parameters={}
+2024-12-07 22:43:27 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:43:27 - View name [forward:], model {}
+2024-12-07 22:43:27 - Forwarding to [index.html]
+2024-12-07 22:43:27 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:43:27 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:27 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:43:27 - Completed 200 OK
+2024-12-07 22:43:27 - GET "/js/admin.js", parameters={}
+2024-12-07 22:43:27 - GET "/css/admin.css", parameters={}
+2024-12-07 22:43:27 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:27 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:27 - Completed 200 OK
+2024-12-07 22:43:27 - Completed 200 OK
+2024-12-07 22:43:35 - POST "/api/products", parameters={}
+2024-12-07 22:43:35 - Mapped to com.crudapi.controller.ProductController#createProduct(Product)
+2024-12-07 22:43:35 - Read "application/json;charset=UTF-8" to [Product{id=null, name='soap', description='this is soap', price=100.0}]
+2024-12-07 22:43:35 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:43:35 - Writing [Product{id=7, name='soap', description='this is soap', price=100.0}]
+2024-12-07 22:43:35 - Completed 200 OK
+2024-12-07 22:43:35 - GET "/api/products", parameters={}
+2024-12-07 22:43:35 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:43:35 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:43:35 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:43:35 - Completed 200 OK
+2024-12-07 22:43:38 - GET "/one11.html", parameters={}
+2024-12-07 22:43:38 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:38 - Completed 200 OK
+2024-12-07 22:43:38 - GET "/js/app.js", parameters={}
+2024-12-07 22:43:38 - GET "/css/style3.css", parameters={}
+2024-12-07 22:43:38 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:38 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:38 - Completed 200 OK
+2024-12-07 22:43:38 - Completed 200 OK
+2024-12-07 22:43:38 - GET "/api/products", parameters={}
+2024-12-07 22:43:38 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:43:38 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:43:38 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:43:38 - Completed 200 OK
+2024-12-07 22:43:40 - GET "/", parameters={}
+2024-12-07 22:43:40 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:43:40 - View name [forward:], model {}
+2024-12-07 22:43:40 - Forwarding to [index.html]
+2024-12-07 22:43:40 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:43:40 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:40 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:43:40 - Completed 200 OK
+2024-12-07 22:43:40 - GET "/css/admin.css", parameters={}
+2024-12-07 22:43:40 - GET "/js/admin.js", parameters={}
+2024-12-07 22:43:40 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:40 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:43:40 - Completed 200 OK
+2024-12-07 22:43:40 - Completed 200 OK
+2024-12-07 22:44:02 - GET "/one11.html", parameters={}
+2024-12-07 22:44:02 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:02 - Completed 200 OK
+2024-12-07 22:44:02 - GET "/css/style3.css", parameters={}
+2024-12-07 22:44:02 - GET "/js/app.js", parameters={}
+2024-12-07 22:44:02 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:02 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:02 - Completed 200 OK
+2024-12-07 22:44:02 - Completed 200 OK
+2024-12-07 22:44:02 - GET "/api/products", parameters={}
+2024-12-07 22:44:02 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:44:02 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:44:02 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:44:02 - Completed 200 OK
+2024-12-07 22:44:07 - GET "/one11.html", parameters={}
+2024-12-07 22:44:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:07 - Completed 200 OK
+2024-12-07 22:44:07 - GET "/css/style3.css", parameters={}
+2024-12-07 22:44:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:07 - GET "/js/app.js", parameters={}
+2024-12-07 22:44:07 - Completed 200 OK
+2024-12-07 22:44:07 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:07 - Completed 200 OK
+2024-12-07 22:44:07 - GET "/api/products", parameters={}
+2024-12-07 22:44:07 - Mapped to com.crudapi.controller.ProductController#getAllProducts()
+2024-12-07 22:44:07 - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-07 22:44:07 - Writing [[Product{id=3, name='Car ', description='This is my Car', price=500000.0}, Product{id=5, name='Bike' (truncated)...]
+2024-12-07 22:44:07 - Completed 200 OK
+2024-12-07 22:44:08 - GET "/", parameters={}
+2024-12-07 22:44:08 - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-12-07 22:44:08 - View name [forward:], model {}
+2024-12-07 22:44:08 - Forwarding to [index.html]
+2024-12-07 22:44:08 - "FORWARD" dispatch for GET "/index.html", parameters={}
+2024-12-07 22:44:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:08 - Exiting from "FORWARD" dispatch, status 200
+2024-12-07 22:44:08 - Completed 200 OK
+2024-12-07 22:44:08 - GET "/css/admin.css", parameters={}
+2024-12-07 22:44:08 - GET "/js/admin.js", parameters={}
+2024-12-07 22:44:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:08 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-12-07 22:44:08 - Completed 200 OK
+2024-12-07 22:44:08 - Completed 200 OK
+2024-12-07 22:48:48 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-07 22:48:48 - Graceful shutdown complete
+2024-12-07 22:48:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-07 22:48:48 - HikariPool-1 - Shutdown initiated...
+2024-12-07 22:48:48 - HikariPool-1 - Shutdown completed.
